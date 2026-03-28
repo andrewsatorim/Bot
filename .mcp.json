@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "trading-skills": {
+      "command": "uvx",
+      "args": ["--from", "git+https://github.com/staskh/trading_skills.git", "trading-skills-mcp"]
+    }
+  }
+}
