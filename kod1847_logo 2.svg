@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500&amp;family=Raleway:wght@200;300;400;500&amp;display=swap');
+    </style>
+  </defs>
+
+  <!-- Dark background -->
+  <rect width="400" height="500" fill="#08080a"/>
+
+  <!-- ===== MAIN LOGO MARK ===== -->
+  <g transform="translate(120, 40)">
+    <!-- Outer frame -->
+    <rect x="0" y="0" width="160" height="160" fill="none" stroke="#b89860" stroke-width="1"/>
+    <!-- Inner frame -->
+    <rect x="10" y="10" width="140" height="140" fill="none" stroke="#b89860" stroke-width="0.5" opacity="0.3"/>
+
+    <!-- Diamond ornament -->
+    <path d="M80 18 L87 25 L80 32 L73 25 Z" fill="#b89860" opacity="0.55"/>
+
+    <!-- К monogram — geometric strokes -->
+    <line x1="42" y1="52" x2="42" y2="112" stroke="#b89860" stroke-width="2.2"/>
+    <line x1="42" y1="82" x2="70" y2="52" stroke="#b89860" stroke-width="2.2"/>
+    <line x1="42" y1="82" x2="70" y2="112" stroke="#b89860" stroke-width="2.2"/>
+
+    <!-- Vertical separator -->
+    <line x1="84" y1="55" x2="84" y2="109" stroke="#b89860" stroke-width="0.5" opacity="0.25"/>
+
+    <!-- 1847 stacked — Bodoni Moda -->
+    <text x="96" y="78" font-family="'Bodoni Moda', Georgia, serif" font-size="23" fill="#b89860" letter-spacing="2" font-weight="400">18</text>
+    <text x="96" y="105" font-family="'Bodoni Moda', Georgia, serif" font-size="23" fill="#b89860" letter-spacing="2" font-weight="400">47</text>
+  </g>
+
+  <!-- ===== TEXT LOCKUP ===== -->
+  <!-- Club name — Bodoni Moda -->
+  <text x="200" y="244" text-anchor="middle" font-family="'Bodoni Moda', Georgia, serif" font-size="34" fill="#b89860" letter-spacing="12" font-weight="400">КОД 1847</text>
+
+  <!-- Divider line -->
+  <line x1="160" y1="264" x2="240" y2="264" stroke="#b89860" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- Tagline — Raleway -->
+  <text x="200" y="288" text-anchor="middle" font-family="'Raleway', Helvetica, sans-serif" font-size="8" fill="#9a958b" letter-spacing="6" font-weight="400">ЗАКРЫТЫЙ КЛУБ</text>
+
+  <!-- Location — Raleway -->
+  <text x="200" y="306" text-anchor="middle" font-family="'Raleway', Helvetica, sans-serif" font-size="7" fill="#9a958b" letter-spacing="4" font-weight="300" opacity="0.5">МОСКВА · АРБАТ · EST. 1847</text>
+
+  <!-- ===== LIGHT BACKGROUND VERSION ===== -->
+  <rect x="0" y="340" width="400" height="160" fill="#f5f0e8"/>
+
+  <g transform="translate(110, 365)">
+    <!-- Logo mark small -->
+    <rect x="0" y="0" width="48" height="48" fill="none" stroke="#08080a" stroke-width="0.7"/>
+    <rect x="4" y="4" width="40" height="40" fill="none" stroke="#08080a" stroke-width="0.3" opacity="0.2"/>
+    <path d="M24 8 L27 11 L24 14 L21 11 Z" fill="#08080a" opacity="0.4"/>
+    <line x1="14" y1="17" x2="14" y2="35" stroke="#08080a" stroke-width="1"/>
+    <line x1="14" y1="26" x2="23" y2="17" stroke="#08080a" stroke-width="1"/>
+    <line x1="14" y1="26" x2="23" y2="35" stroke="#08080a" stroke-width="1"/>
+    <line x1="27" y1="18" x2="27" y2="34" stroke="#08080a" stroke-width="0.3" opacity="0.2"/>
+    <text x="30" y="25" font-family="'Bodoni Moda', Georgia, serif" font-size="6" fill="#08080a" letter-spacing="0.8" font-weight="400">18</text>
+    <text x="30" y="33" font-family="'Bodoni Moda', Georgia, serif" font-size="6" fill="#08080a" letter-spacing="0.8" font-weight="400">47</text>
+  </g>
+
+  <!-- Text lockup light version -->
+  <text x="200" y="400" text-anchor="middle" font-family="'Bodoni Moda', Georgia, serif" font-size="21" fill="#08080a" letter-spacing="9" font-weight="400">КОД 1847</text>
+  <text x="200" y="420" text-anchor="middle" font-family="'Raleway', Helvetica, sans-serif" font-size="6.5" fill="#08080a" letter-spacing="5" font-weight="400" opacity="0.45">ЗАКРЫТЫЙ КЛУБ · МОСКВА</text>
+
+  <!-- Version labels -->
+  <text x="200" y="352" text-anchor="middle" font-family="'Raleway', Helvetica, sans-serif" font-size="5" fill="#9a958b" letter-spacing="3" font-weight="300" opacity="0.3">LIGHT VERSION</text>
+
+  <text x="200" y="490" text-anchor="middle" font-family="'Raleway', Helvetica, sans-serif" font-size="5" fill="#9a958b" letter-spacing="3" font-weight="300" opacity="0.3">kod1847.club</text>
+</svg>
